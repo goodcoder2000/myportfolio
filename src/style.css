@@ -1,0 +1,155 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-repeat: no-repeat;
+    background-color: #23e09b;
+}
+.header{
+    font-family: 'Quantico', sans-serif;
+    text-align: center;
+}
+p,h1{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: 20px auto;
+    padding: 30px 12px;
+    background: rgb(255,255,255);
+background: linear-gradient(45deg, rgba(255,255,255,0.8524452017134979) 0%, rgba(240,240,240,0.6563667703409488) 100%);
+    border-radius: 20px;
+}
+.nav{
+    margin-top: 20px;
+}
+.navContainer{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lowerContainer{
+    margin-top: 20px;
+}
+.leftContainer{
+    padding-top: 70px;
+    padding-left: 30px;
+}
+.rightContainer{
+    width: 50%;
+}
+.rightImg{
+    width: 96%;
+    transition: 0.6s all ease-in
+}
+.webColor{
+    color: #FF006E;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
+.details{
+    text-align: justify;
+    transition: 0.1s all ease-in;
+}
+.typedText{
+    font-family: 'Quantico', sans-serif;
+    color: #23e09b;
+    padding: 0;
+    margin: 0;
+}
+.skillContainer{
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+.eachSkill{
+    width: 80%;
+    margin: 10px;
+
+}
+
+.fullSkill{
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: #23e09b;
+    overflow: hidden;
+}
+
+/* eachSkill */
+
+.skillforall{
+    height: 100%;
+    padding: 5px 0;
+    text-align: end;
+    background: rgb(35,224,155);
+    background: linear-gradient(90deg, rgba(35,224,155,1) 0%, rgba(255,247,0,1) 100%);
+    transition: 0.7s all ease-in-out;
+}
+.cardContainer{
+    margin: 0 auto;
+}
+.projectContainer{
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cardContainer{
+    margin: 20px 0;
+}
+
+.portfolioContainer{
+    margin-top: 44px;
+}
+
+.contactSmall{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px ;
+}
+.paperContainer{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.forTap{
+    display: flex;
+    align-items: center;
+}
+.chat{
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+}
+
+@media (max-width: 1200px) {
+    .rightImg{
+        width: 60%;
+        margin: 10px auto;
+    }
+}
+@media (max-width: 650px) {
+    .fullSkill{
+        width: 90%;
+    }
+    .rightImg{
+        width: 80%;
+    }
+    .leftContainer{
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 550px) {
+    .container{
+        width: 90%;
+    }
+    .typedText{
+        font-size: 25px;
+    }
+    
+}
