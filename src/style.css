@@ -125,6 +125,10 @@ background: linear-gradient(45deg, rgba(255,255,255,0.8524452017134979) 0%, rgba
     bottom: 30px;
     right: 40px;
 }
+.footerContainer{
+    height: 50px;
+    background-color: #FF006E;
+}
 
 @media (max-width: 1200px) {
     .rightImg{
