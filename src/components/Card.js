@@ -10,7 +10,7 @@ export default function MediaCard({image, link, header, details}) {
 
   return (
     <div className='cardContainer'>
-      <Card sx={{ maxWidth: 345, height:  310 }}>
+      <Card sx={{ maxWidth: 345, borderRadius:  '15px'}}>
       <CardMedia
         component="img"
         height="140"

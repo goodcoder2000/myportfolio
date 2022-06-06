@@ -1,9 +1,10 @@
 import React from "react";
+import { TF } from "./TF";
 
 export const Mail = () =>{
     return(
         <div>
-            this isa
+            <TF/>
         </div>
     )
 }

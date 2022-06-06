@@ -1,5 +1,15 @@
 import React, { useState, useEffect } from "react";
-const words = ["I am L Zay Ya Ko Ko,"];
+const words = ["I am L Zay Ya Ko Ko,",
+"I am L Zay Ya Ko Ko,",
+"I am L Zay Ya Ko Ko,",
+"I am L Zay Ya Ko Ko,",
+"I am L Zay Ya Ko Ko,",
+"I am L Zay Ya Ko Ko,",
+"I am L Zay Ya Ko Ko,",
+"I am L Zay Ya Ko Ko,",
+"I am L Zay Ya Ko Ko,",
+"I am L Zay Ya Ko Ko,",
+"I am L Zay Ya Ko Ko,"];
 
 export const TypedText = () => {
   const [index, setIndex] = useState(0);

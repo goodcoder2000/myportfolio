@@ -8,12 +8,11 @@ import { Skills } from "../page/Skills";
 import { Projects} from "../page/Projects";
 import { Contact } from "../page/Contact";
 import { Portfolio } from "../page/Portfolio";
-import { Footer } from "./Footer";
+import { Mail } from "./Mail";
 
 export const Lower = () =>{
     return(
-        <div>
-            <div className="lowerContainer">
+        <div className="lowerContainer">
             <Grid container spaceing={2}>
                 <Grid item lg={7} md={12}>
                     <Left/>
@@ -27,12 +26,12 @@ export const Lower = () =>{
             <Portfolio/>
             <Skills/>
             <Projects/>
+
+            <Mail/>
         
             <Hidden only={["lg","md"]}>
                 <Chat/>
             </Hidden>
-        </div>
-        <Footer/>
         </div>
     );
 }

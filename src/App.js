@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Projects } from "./page/Projects";
 import { Contact } from "./page/Contact";
 import { Portfolio } from "./page/Portfolio";
+import { Footer } from "./components/Footer";
 
 
 const App = () =>{
@@ -22,6 +23,7 @@ const App = () =>{
                   <Route path="/Portfolio" element={<Portfolio/>}/>
                 </Routes>
         </div>
+        <Footer/>
       </BrowserRouter>
   )
 }
