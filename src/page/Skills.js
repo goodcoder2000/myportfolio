@@ -26,7 +26,7 @@ export const Skills = () =>{
         setfbWidth(50);
     }, 500)
     return(
-        <div className="skillContainer">
+        <div id="skills" className="skillContainer">
             <Grid container spacing={2}>
                 <Grid item lg={12} md={12} sm={12} xs={12}>
                     <Typography variant="h5" align="center" style={{marginTop: "30px", marginBottom:    '20px'}}>

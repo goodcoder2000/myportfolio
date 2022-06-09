@@ -3,6 +3,12 @@ body{
     background-repeat: no-repeat;
     background-color: #23e09b;
 }
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
 
 .header{
     font-family: 'Quantico', sans-serif;
@@ -12,16 +18,23 @@ p,h1, *{
     padding: 0;
     margin: 0;
 }
+.projects{
+    padding-top: 80px;
+}
 .container{
     width: 80%;
     margin: 20px auto;
     padding: 30px 12px;
     background: rgb(255,255,255);
-background: linear-gradient(45deg, rgba(255,255,255,0.8524452017134979) 0%, rgba(240,240,240,0.6563667703409488) 100%);
+    background: linear-gradient(45deg, rgba(255,255,255,0.8524452017134979) 0%, rgba(240,240,240,0.6563667703409488) 100%);
     border-radius: 20px;
 }
 .nav{
-    margin-top: 20px;
+    padding: 20px 0;
+    background-color: rgba(63, 242, 108, 0.89);
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 .navContainer{
     padding: 30px;
@@ -31,6 +44,8 @@ background: linear-gradient(45deg, rgba(255,255,255,0.8524452017134979) 0%, rgba
 }
 .lowerContainer{
     margin-top: 20px;
+}
+.homeContainer,.mail{
 }
 .leftContainer{
     padding-top: 70px;
@@ -59,7 +74,7 @@ background: linear-gradient(45deg, rgba(255,255,255,0.8524452017134979) 0%, rgba
     margin: 0;
 }
 .skillContainer{
-    padding-top: 10px;
+    padding-top: 70px;
     padding-bottom: 25px;
 }
 .eachSkill{
@@ -136,11 +151,38 @@ background: linear-gradient(45deg, rgba(255,255,255,0.8524452017134979) 0%, rgba
     justify-content: center;
     margin-bottom: 30px;
 }
-
+.TFContainer{
+    display: flex;
+}
+.innerForm{
+    margin: 30px auto;
+    width: 39%;
+    background-color: #23e09b;
+    border-radius: 12px;
+    padding: 8px 12px;
+}
+.contact{
+    padding-top: 90px;
+}
 @media (max-width: 1200px) {
     .rightImg{
         width: 60%;
         margin: 10px auto;
+    }
+    
+}
+@media (max-width: 900px) {
+    .skillContainer{
+        padding-top: 100px;
+    }
+    .projects{
+        padding-top: 110px;
+    }
+    .contact{
+        padding-top: 130px;
+    }
+    .portfolio{
+        padding-top: 90px;
     }
 }
 @media (max-width: 650px) {
@@ -153,6 +195,9 @@ background: linear-gradient(45deg, rgba(255,255,255,0.8524452017134979) 0%, rgba
     .leftContainer{
         padding-left: 10px;
     }
+    .innerForm{
+        width: 50%;
+    }
 }
 
 @media (max-width: 550px) {
@@ -161,6 +206,9 @@ background: linear-gradient(45deg, rgba(255,255,255,0.8524452017134979) 0%, rgba
     }
     .typedText{
         font-size: 25px;
+    }
+    .innerForm{
+        width: 80%;
     }
     
 }

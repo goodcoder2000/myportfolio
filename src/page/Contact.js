@@ -4,7 +4,7 @@ import {PaperContainer} from '../components/PaperContainer';
 
 export const Contact= () =>{
     return(
-        <div style={{marginTop: "30px"}}>
+        <div id="contact" className="contact" >
             <Typography variant="h5" align="center">
                 Contact Me
             </Typography>

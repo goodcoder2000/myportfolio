@@ -3,7 +3,7 @@ import { TF } from "./TF";
 
 export const Mail = () =>{
     return(
-        <div>
+        <div id="mail" className="mail">
             <TF/>
         </div>
     )

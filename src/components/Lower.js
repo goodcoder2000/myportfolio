@@ -13,14 +13,16 @@ import { Mail } from "./Mail";
 export const Lower = () =>{
     return(
         <div className="lowerContainer">
-            <Grid container spaceing={2}>
-                <Grid item lg={7} md={12}>
-                    <Left/>
+            <div className="homeContainer">
+                <Grid container spaceing={2}>
+                    <Grid item lg={7} md={12}>
+                        <Left/>
+                    </Grid>
+                    <Grid item lg={5} md={12}>
+                        <Right/>
+                    </Grid>
                 </Grid>
-                <Grid item lg={5} mg={12}>
-                    <Right/>
-                </Grid>
-            </Grid>
+            </div>
 
             <Contact/>
             <Portfolio/>

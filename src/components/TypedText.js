@@ -1,15 +1,12 @@
 import React, { useState, useEffect } from "react";
-const words = ["I am L Zay Ya Ko Ko,",
-"I am L Zay Ya Ko Ko,",
-"I am L Zay Ya Ko Ko,",
-"I am L Zay Ya Ko Ko,",
-"I am L Zay Ya Ko Ko,",
-"I am L Zay Ya Ko Ko,",
-"I am L Zay Ya Ko Ko,",
-"I am L Zay Ya Ko Ko,",
-"I am L Zay Ya Ko Ko,",
-"I am L Zay Ya Ko Ko,",
-"I am L Zay Ya Ko Ko,"];
+const words = ["L Zay Ya Ko Ko","a Web Designer", "a Web Developer",
+"L Zay Ya Ko Ko","a Web Designer", "a Web Developer",
+"L Zay Ya Ko Ko","a Web Designer", "a Web Developer",
+"L Zay Ya Ko Ko","a Web Designer", "a Web Developer",
+"L Zay Ya Ko Ko","a Web Designer", "a Web Developer",
+"L Zay Ya Ko Ko","a Web Designer", "a Web Developer",
+"L Zay Ya Ko Ko","a Web Designer", "a Web Developer"
+];
 
 export const TypedText = () => {
   const [index, setIndex] = useState(0);
@@ -57,7 +54,7 @@ export const TypedText = () => {
   return (
     <>
       <h1 className="typedText">
-        {`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}
+        I am {`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}
       </h1>
     </>
   );

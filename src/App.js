@@ -13,8 +13,8 @@ import { Footer } from "./components/Footer";
 const App = () =>{
   return(
       <BrowserRouter>
-        <div className="container">
               <Nav/>
+          <div id="home" className="container">
                 <Routes>
                   <Route path="/" element={<Lower/>}/>
                   <Route path="/Skills" element={<Skills/>}/>

@@ -6,7 +6,6 @@ import cvv from '../files/cvv.pdf';
 
 
 export const Left = () =>{
-    const navigate = useNavigate();
     const [ display, setDisplay] = useState(0);
 
     setTimeout(() =>{
@@ -44,9 +43,9 @@ export const Left = () =>{
               
 
                 <Grid item lg={6} md={4} sm={6} xs={12}>
-                    <Button variant="outlined" 
-                    onClick={() =>navigate('/Portfolio')}
-                    style={{color: '#23e09b', marginTop: '25px'}}>portfolio</Button>
+                    <Button variant="outlined" style={{color: '#23e09b', marginTop: '25px'}}>
+                        <a href="#portfolio">portfolio</a>
+                    </Button>
                 </Grid>
             </Grid>
             </div>

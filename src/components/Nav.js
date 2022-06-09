@@ -1,6 +1,5 @@
 import React from "react";
 import Btn from './Btn';
-import { Typography } from "@mui/material";
 import Grid from '@mui/material/Grid';
 import { BtnGp } from "./BtnGp";
 import Hidden from '@mui/material/Hidden';
@@ -8,7 +7,7 @@ import Hidden from '@mui/material/Hidden';
 
 export const Nav = () =>{
     return(
-        <Grid container spacing={2} className="nav">
+        <Grid container className="nav">
             <Grid item lg={3} md={4} sm={12} xs={12}>
 
                 <h1 className="header">

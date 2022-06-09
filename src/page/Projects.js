@@ -8,8 +8,8 @@ import { Typography } from "@mui/material";
 export const Projects = () =>{
     return(
        
-            <div>
-                <Typography variant="h6" align="center" style={{marginTop:  '15px'}}>
+            <div id="projects" className="projects">
+                <Typography variant="h5" align="center" style={{marginTop:  '15px'}}>
                     My Favorite Projects
                 </Typography>
                 <div className="projectContainer">
