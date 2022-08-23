@@ -6,7 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 
 
-export default function MediaCard({image, link, header, details}) {
+export default function MediaCard({image, link, header, details, cardText}) {
 
   return (
     <div className='cardContainer'>
@@ -26,7 +26,7 @@ export default function MediaCard({image, link, header, details}) {
         </Typography>
       </CardContent>
       <CardActions>
-        <a target="_blank" href={link}>Open in Browser</a>
+        <a target="_blank" href={link}>{cardText}</a>
       </CardActions>
     </Card>
     </div>

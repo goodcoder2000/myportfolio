@@ -12,7 +12,7 @@ import { Mail } from "./Mail";
 
 export const Lower = () =>{
     return(
-        <div className="lowerContainer">
+         <div className="lowerContainer">
             <div className="homeContainer">
                 <Grid container spaceing={2}>
                     <Grid item lg={7} md={12}>
@@ -30,7 +30,6 @@ export const Lower = () =>{
             <Projects/>
 
             <Mail/>
-        
             <Hidden only={["lg","md"]}>
                 <Chat/>
             </Hidden>

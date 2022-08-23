@@ -14,9 +14,9 @@ export const Footer = () =>{
 
             <div className="footerLinkContainer">
                 <div>
-                        <Link to="/Portfolio">Portfolio</Link>
-                        <Link to="/Skills" style={{marginLeft: "30px", marginRight: "30px"}}>Skills</Link>
-                        <Link to="/Contact">Contact</Link>
+                        <a href="#portfolio">Portfolio</a>
+                        <a href="#skills" style={{marginLeft: "30px", marginRight: "30px"}}>Skills</a>
+                        <a href="#contact">Contact</a>
                 </div>
             </div>
 
@@ -33,7 +33,6 @@ export const Footer = () =>{
 
                         <Link to="/Contact">
                             <LinkedInIcon/>
-
                         </Link>
 
                 </div>

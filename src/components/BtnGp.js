@@ -3,8 +3,6 @@ import { ButtonGroup,Button } from "@mui/material";
 
 
 export const BtnGp = () =>{
-
-
     return(
         <ButtonGroup variant="text" aria-label="text button group">
             <Button style={{color: "#23e09b"}}>
